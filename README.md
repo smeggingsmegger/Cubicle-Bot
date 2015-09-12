@@ -1,4 +1,6 @@
 # Cubicle-Bot
+![Cubicle-Bot](https://raw.githubusercontent.com/smeggingsmegger/Cubicle-Bot/master/logo/Cubicle-Bot.png)
+
 A Python library for simulating workers using a web application.
 
 Cubicle Bots are YAML scripts that define workers and tasks. A worker is a set of tasks that a typical user of the application might do in a given time period.
