@@ -32,7 +32,8 @@ tasks:
 Then in your HTML you will simply use custom attributes to reference the task being performed and tell the worker how to do the job you wish to see done.
 
 ```
-<a href="#" id="newClaim_btn" new-claim="first|click|create-claim|wait-for-clickable: done-button|timeout: 60"></a>
+<a href="#" id="newClaim_btn" new-claim="first|click|create-claim
+|wait-for-clickable: done-button|timeout: 60"></a>
 ```
 
 The worker will go to the starting URL and, when it is time to perform the new-claim task, it will find the HTML element that contains the new-claim attribute and the "first" value.
